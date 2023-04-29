@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist//css/main.css">
+  <title>Home page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            nifemi: '#00ff00'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="">
+ <div class="flex justify-between py-4 w-full bg-black text-white px-4 font-semibold">
+    <h1>
+        Oluwanifemi
+    </h1>
+
+    <div>
+
+        <a href="/" class="text-blue-500 underline">Home</a>
+
+    </div>
+ </div>
+
+ <div class="w-full flex flex-col justify-center items-center text-center lg:text-4xl gap-20 h-screen text-nifemi">
+    This is the About Page
+ </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist//css/main.css">
+  <title>Home page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="">
+ <div class="flex justify-between py-4 w-full bg-black text-white px-4 font-semibold">
+    <h1>
+        Oluwanifemi
+    </h1>
+
+    <div>
+
+        <a href="/about.html" class="text-blue-500 underline"> About</a>
+
+    </div>
+ </div>
+
+ <div class="w-full flex flex-col justify-center items-center text-center lg:text-2xl gap-20 h-screen px-5">
+    <p>Hi, My name is Akeju Oluwanifemi, welcome to this home page. </p>
+    <p>I'm so excited, this is my first server I built with Node JS !</p>
+    <p>
+        Check out my web portfolio here <a class="text-red-700" href="https://akeju.vercel.app" target="_blank">MY WEB PORTFOLIO</a>
+    </p>
+ </div>
+</body>
+</html>
